@@ -1,0 +1,44 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(to right ,skyblue,crimson);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#container{
+    width:400px;
+    height: 400px;
+    background:linear-gradient(to bottom ,dodgerblue,red);
+    border:2px solid white;
+     border-radius: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 4px 4px 5px #0000; */
+    
+    
+}
+#wrapper{
+    font-size: 60px;
+    text-overflow: 4px 3px 2px;
+ 
+}
+#hours{
+    color:rgb(255, 106, 0);
+}
+#minutes{
+  color:rgb(43, 223, 15);
+}
+#seconds{
+ color:rgb(18, 129, 226);
+}
+#ampm{
+ color:chartreuse;
+}
